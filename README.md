@@ -160,10 +160,29 @@
 - Targets specific parts of the HTML document so that they can be manipulated with JavaScript
 - Methods for Selecting Elements:
 1. ```getElementById```: Selects a single element by its unique id.
+- ``const titleElement = document.getElementById("page-title")
+console.log(titleElement)``
+
 2. ```getElementsByClassName```: Selects all elements that share the same class name
+- ``const famContacts = document.getElementsByClassName("family")
+console.log(famContacts)``
+
 3. ```getElementsByTagName```: Selects all elements with a specific tag name,
+
+- ``const allContacts = document.getElementsByTagName('p')
+console.log(allContacts)``
+
+
+
 4. ```querySelector```: Selects the first element that matches a specified CSS selector.
+
+- ``const firstWorkContact = document.querySelector('.work')
+console.log(firstWorkContact)``
+
 5. ```querySelectorAll```: Selects all elements that match a specified CSS selector.
+
+- ``const allBtns = document.querySelectorAll('button')
+console.log(allBtns)``
 
 ##### Modifying DOM Elements:
 
@@ -176,6 +195,11 @@
 4. Channging Attributes: use "setAttribute" and "removeAttribute" to modify or remove attributes like ```src, href, alt```, etc.
 5. Creating and Inserting Elements: use "createElement" and "appendChild" to create new elements and add them to the DOM.
 
+
+![alt text](Selecting_and_Modifying_DOM_Elements.png)
+
+
+
 #### Event handling 
 
 ##### What Are Events?
@@ -186,7 +210,7 @@
 ##### Event Listeners:
 
 - the functions that wait for a specific event to occur on a particular element.
-- when the event occurs, the event listener "listens" for it and triggers a callback dunction -- a function designed to ececute when the event occurs.
+- when the event occurs, the event listener "listens" for it and triggers a callback function -- a function designed to execute when the event occurs.
 
 - Attaching Event Listeners:
 
@@ -215,6 +239,9 @@
 
 - When an event occurs, the browser passes an event object to the event handler function. This object contains information about the event, such as the type of event, the elememt that triggered it, and other details like mouse coordinates for mouse events or key codes for keyboard events. 
 - Using the event object: Can be accessed by adding a parameter to the callback function which allows the developer to prevent default actions, stop the event from propagating(bubbling up to parent elements), and access event-specific properties.
+
+![alt text](Handling_Events.png)
+
 
 #### Creating and removing elements dynamically
 
@@ -247,3 +274,4 @@
 
 
 
+![alt text](Creating_and_removing_elements_dynamically.png)
