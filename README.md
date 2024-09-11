@@ -216,7 +216,7 @@ console.log(allBtns)``
 
 - Attaching Event Listeners:
 
-1. ```addEventListener```: this is the most common method for attching an event listener to an element. It takes two arguments: the event type (e.g "click", "mouseover", "keydown") and the callback function to execute when the event occurs.
+1. ```addEventListener```: this is the most common method for attaching an event listener to an element. It takes two arguments: the event type (e.g "click", "mouseover", "keydown") and the callback function to execute when the event occurs.
 2. Inline Event Handlers: Can be directly placed within HTML tags (e.g., ```<button onclick = "doSomething()">```). However, using ```addEventListener``` is prefered as it seperates HTML and JavaScript, making coding more modular and easier to maintain. 
 
 ##### Common Event Types:
