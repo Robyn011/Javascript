@@ -80,15 +80,15 @@
 
  ##### if-else Statements:
  
- - it is a fundamental control structure that executes a block of code if a specified condition is true. If the condition is false, the else block (if provided) is execuuted instead.
+ - it is a fundamental control structure that executes a block of code if a specified condition is true. If the condition is false, the else block (if provided) is executed instead.
  
  1. Structure:
 
  - `if` Block: Executes when the condition is true.
  - `else if` Block: Optional; checks another condition if the previous one was false
- - `else `Block: Execute when none of the previose conditions are met.
+ - `else `Block: Execute when none of the previous conditions are met.
 
- 2.` Use Case`: used when there are multiple conditions to evaluate, with different outcomes depending on which conditions are true 
+ 2. ` Use Case`: used when there are multiple conditions to evaluate, with different outcomes depending on which conditions are true 
 
  ##### switch Statements:
 
@@ -97,8 +97,8 @@
 
  1. Structure:
 
- - `switch` Keyword: Evaluares an ecpression and matches it to one of several case labels.
- - `case` Labels: Each case contains the code to execute if the expression matches the lable
+ - `switch` Keyword: Evaluares an expression and matches it to one of several case labels.
+ - `case` Labels: Each case contains the code to execute if the expression matches the label.
  - `default` Case: Executes if no matching case is found; it's optional but often used as a fallback.
 
  2. Use Case: The switch statement is ideal when you need to compare a single expression against multiple potential values.
@@ -106,12 +106,12 @@
  ### Functions and scope
  
  #### Functions:
- - A reusable block of code designed to perform a specific task. functions allow developers to write code once and use it multiple times, which enhances code effciency and readability.
+ - A reusable block of code designed to perform a specific task. Functions allow developers to write code once and use it multiple times, which enhances code effeciency and readability.
 
 1. Function Declaration:
 - can be declared using the function keyword, followed by a  name, a list of parameters are used within the function to perform operations. The actual values passed to the function are called arguments
 
-2. Parameters and Arguments
+2. Parameters and Arguments:
 - Functions can take parameters
 - Values that are passed into the function when it is called
 - these parameters are used within the function to perform operations
@@ -123,7 +123,7 @@
 
 #### Scope:
 
-- Deturmans the accessibility of variables and functions in different parts of the code.
+- Deturmines the accessibility of variables and functions in different parts of the code.
 
 ##### Types of Scope:
 
@@ -131,7 +131,7 @@
 - Variables declared outside of any function or block have global scope and can be accessed from anywhere in the code.
 
 2. Local Scope:
-- Variables declared within a function or block are locak to that function or block and cannot be accessed from outside it
+- Variables declared within a function or block are local to that function or block and cannot be accessed from outside it
 
 3. Function Scope:
 - Variables declared within a function are accessible only within that function
@@ -142,7 +142,7 @@
 ##### Hoisting:
 
 - JavaScript variables and function declarations are "hoisted"
-- they are moved to the top of their containing scope before code ececution
+- they are moved to the top of their containing scope before code execution
 - The value assignments are not hoisted, which can sometimes lead to unexpected behavior.
 
 ### DOM Manipulation
@@ -153,7 +153,7 @@
 
 - It is a structured representation of an HTML document.
 - Represents the page so that programs can change the document structure, style and content.
-- JavaScript could be used to manipulate the DOM, which enables developers to dynamically update the content and appearance od web pages.
+- JavaScript could be used to manipulate the DOM, which enables developers to dynamically update the content and appearance of web pages.
 
 ##### Selecting DOM Elements:
 
@@ -204,7 +204,7 @@ console.log(allBtns)``
 
 ##### What Are Events?
 
-- an action or occurrence that happens in the browserm such as a user clicking a button, typing in a field, or scrolling a page.
+- an action or occurrence that happens in the browser such as a user clicking a button, typing in a field, or scrolling a page.
 - enables interactive behavior on web pages
 
 ##### Event Listeners:
