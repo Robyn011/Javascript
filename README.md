@@ -123,7 +123,7 @@
 
 #### Scope:
 
-- Deturmans the accessibility of variables and functions in different parts of the code.
+- Determines the accessibility of variables and functions in different parts of the code.
 
 ##### Types of Scope:
 
