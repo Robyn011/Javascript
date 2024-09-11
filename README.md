@@ -194,7 +194,7 @@ console.log(allBtns)``
 1. Changing Content: Use the ```textContent``` or ```innerHTML``` properties to update the text or HTML inside an element. 
 2. Changing Styles: Use the ```style``` property to modify the CSS styles of the an element (e.g., ```element.style.color = "blue"```;) 
 3. Adding/Removing Classes: use ```classList.add, classList.remove```, or ```classList.toggle``` to manipulate an element's classes.
-4. Channging Attributes: use "setAttribute" and "removeAttribute" to modify or remove attributes like ```src, href, alt```, etc.
+4. Changing Attributes: use "setAttribute" and "removeAttribute" to modify or remove attributes like ```src, href, alt```, etc.
 5. Creating and Inserting Elements: use "createElement" and "appendChild" to create new elements and add them to the DOM.
 
 
