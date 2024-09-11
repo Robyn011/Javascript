@@ -123,7 +123,11 @@
 
 #### Scope:
 
+<<<<<<< HEAD
 - Deturmines the accessibility of variables and functions in different parts of the code.
+=======
+- Determines the accessibility of variables and functions in different parts of the code.
+>>>>>>> 9eedf8907f0eb691b1f2e84990c961c27fb361b4
 
 ##### Types of Scope:
 
